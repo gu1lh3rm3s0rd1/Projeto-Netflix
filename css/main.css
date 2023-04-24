@@ -11,18 +11,24 @@
 
 /*elementos base*/
 body {
-    margin: 2%;
-    background: var(--preta);
-    color: white;
-    font-family: sans-serif;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    /*color: var(--bs-body-color);*/
+    text-align: var(--bs-body-text-align);
+    /*background-color: var(--bs-body-bg);*/
+    background-color: #1e1e1e;
 }
-
 
 header .container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    background: #1e1e1e;
+    width: 100%;
 }
 
 header .logo {
@@ -49,16 +55,42 @@ header nav a:hover {
     background-size: cover;
 }
 
-.filme-principal .descricao {
+/*serie principal*/
+.serie-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../assets/peaky_logo.jpg');
+    height: 400px;
+    background-size: cover;
+}
+
+/*documentario principal*/
+.doc-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../assets/noticias-neymar-o-caos-perfeito.png');
+    height: 400px;
+    background-size: cover;
+}
+
+/*filme principal*/
+.content-principal {
+    font-size: 16px;
+    background-size: cover;
+}
+
+.filme-principal .serie-principal .content-principal .doc-principal .descricao {
     margin-top: 20px;
     margin-bottom: 80px;
-
 }
 
 .titulo {
     margin-top: 20px;
     font-size: 40px;
     font-family: sans-serif;
+    color: white;
+}
+
+.botoes {
+    margin-top: 5rem;
 }
 
 .botao {
@@ -86,8 +118,21 @@ header nav a:hover {
     margin-right: 10px;
 }
 
-.filme-principal .container {
+.filme-principal .serie-principal .content-principal .doc-principal .container {
     width: 70%;
+}
+
+.descricao .elenco .episodios .produtor .p {
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: white;
 }
 
 .box-filmes {
@@ -97,5 +142,17 @@ header nav a:hover {
 }
 
 .carrosel-filmes {
-    margin-top: 5px;
+    background: #1e1e1e;
+}
+
+.baseboard {
+    background: #000000ea;
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 8rem;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    width: 100%;
 }
