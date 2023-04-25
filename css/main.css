@@ -156,3 +156,90 @@ p {
     margin-top: 1rem;
     width: 100%;
 }
+
+@media (max-width: 415px) {
+    header .container {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background: #1e1e1e;
+        width: auto;
+        justify-items: center;
+    }
+
+    header .logo {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .filme-principal {
+        height: auto;
+    }
+
+    .doc-principal {
+        height: auto;
+    }
+
+    .content-principal {
+        height: auto;
+    }
+
+    .serie-principal {
+        height: auto;
+    }
+
+    .titulo {
+        font-size: 20px;
+    }
+
+    .descricao p {
+        font-size: 20px;
+    }
+
+    .elenco p {
+        font-size: 20px;
+    }
+
+    .produtor p {
+        font-size: 20px;
+    }
+
+    .episodios p {
+        font-size: 20px;
+    }
+
+    .botoes {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .botao {
+        font-size: 9px;
+    }
+
+    .baseboard {
+        background: #000000ea;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 1rem 3rem;
+        width: 100%;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .box-filmes {
+        /* height: 35vw; */
+        /* width: 100%; */
+        /* display: block; */
+    }
+
+}

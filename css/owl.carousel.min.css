@@ -59,6 +59,15 @@
   width: 100%
 }
 
+/*
+@media (max-width: 415px) {
+  .owl-carousel .owl-item img {
+    display: block;
+    width: 50%;
+  }
+}
+*/
+
 .owl-carousel .owl-dots.disabled,
 .owl-carousel .owl-nav.disabled {
   display: none
