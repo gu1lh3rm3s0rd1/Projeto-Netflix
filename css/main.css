@@ -1,245 +1,247 @@
 :root {
-    --vermelho: #e50909e8;
-    --preta: #141414;
+  --vermelho: #e50909e8;
+  --preta: #141414;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /*elementos base*/
 body {
-    margin: 0;
-    font-family: var(--bs-body-font-family);
-    font-size: var(--bs-body-font-size);
-    font-weight: var(--bs-body-font-weight);
-    line-height: var(--bs-body-line-height);
-    /*color: var(--bs-body-color);*/
-    text-align: var(--bs-body-text-align);
-    /*background-color: var(--bs-body-bg);*/
-    background-color: #1e1e1e;
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  /*color: var(--bs-body-color);*/
+  text-align: var(--bs-body-text-align);
+  /*background-color: var(--bs-body-bg);*/
+  background-color: #1e1e1e;
 }
 
 header .container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background: #1e1e1e;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #1e1e1e;
+  width: 100%;
 }
 
 header .logo {
-    color: var(--vermelho);
-    font-family: 'Arial Black', Times;
-    font-size: 40px;
+  color: var(--vermelho);
+  font-family: "Arial Black", Times;
+  font-size: 40px;
 }
 
 header nav a {
-    text-decoration: none;
-    color: white;
-    margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
 }
 
 header nav a:hover {
-    color: rgb(216, 11, 11);
+  color: rgb(216, 11, 11);
 }
 
 /*filme principal*/
 .filme-principal {
-    font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../assets/ultimato_logo.jpg');
-    height: 400px;
-    background-size: cover;
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("../assets/ultimato_logo.jpg");
+  height: 400px;
+  background-size: cover;
 }
 
 /*serie principal*/
 .serie-principal {
-    font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../assets/peaky_logo.jpg');
-    height: 400px;
-    background-size: cover;
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("../assets/peaky_logo.jpg");
+  height: 400px;
+  background-size: cover;
 }
 
 /*documentario principal*/
 .doc-principal {
-    font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../assets/noticias-neymar-o-caos-perfeito.png');
-    height: 400px;
-    background-size: cover;
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("../assets/noticias-neymar-o-caos-perfeito.png");
+  height: 400px;
+  background-size: cover;
 }
 
 /*filme principal*/
 .content-principal {
-    font-size: 16px;
-    background-size: cover;
+  font-size: 16px;
+  background-size: cover;
 }
 
 .filme-principal .serie-principal .content-principal .doc-principal .descricao {
-    margin-top: 20px;
-    margin-bottom: 80px;
+  margin-top: 20px;
+  margin-bottom: 80px;
 }
 
 .titulo {
-    margin-top: 20px;
-    font-size: 40px;
-    font-family: sans-serif;
-    color: white;
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: white;
 }
 
 .botoes {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 .botao {
-    background-color: rgba(0, 0, 0, .50);
-    border: none;
-    color: white;
-    padding: 15px 30px;
-    margin-right: 15px;
-    font-size: 12px;
-    cursor: pointer;
-    transition: .3s ease all;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s ease all;
 }
 
 .botao:hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 .botao i {
-    margin-right: 8px;
+  margin-right: 8px;
 }
 
 .container {
-    margin-left: 20px;
-    margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
 }
 
 .filme-principal .serie-principal .content-principal .doc-principal .container {
-    width: 70%;
+  width: 70%;
 }
 
 .descricao .elenco .episodios .produtor .p {
-    margin-top: 20px;
-    font-size: 40px;
-    font-family: sans-serif;
-    color: white;
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: white;
 }
 
 p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    color: white;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: white;
 }
 
 .box-filmes {
-    height: 100%;
-    width: 100%;
-    display: block;
+  height: 100%;
+  width: 100%;
+  display: block;
 }
 
 .carrosel-filmes {
-    background: #1e1e1e;
+  background: #1e1e1e;
 }
 
 .baseboard {
-    background: #000000ea;
-    display: flex;
-    flex-direction: row;
-    padding: 3rem 8rem;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    margin-top: 1rem;
-    width: 100%;
+  background: #000000ea;
+  display: flex;
+  flex-direction: row;
+  padding: 3rem 8rem;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  width: 100%;
 }
 
 @media (max-width: 415px) {
-    header .container {
-        display: grid;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        background: #1e1e1e;
-        width: auto;
-        justify-items: center;
-    }
+  header .container {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: #1e1e1e;
+    width: auto;
+    justify-items: center;
+  }
 
-    header .logo {
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
+  header .logo {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
 
-    .filme-principal {
-        height: auto;
-    }
+  .filme-principal {
+    height: auto;
+  }
 
-    .doc-principal {
-        height: auto;
-    }
+  .doc-principal {
+    height: auto;
+  }
 
-    .content-principal {
-        height: auto;
-    }
+  .content-principal {
+    height: auto;
+  }
 
-    .serie-principal {
-        height: auto;
-    }
+  .serie-principal {
+    height: auto;
+  }
 
-    .titulo {
-        font-size: 20px;
-    }
+  .titulo {
+    font-size: 20px;
+  }
 
-    .descricao p {
-        font-size: 20px;
-    }
+  .descricao p {
+    font-size: 20px;
+  }
 
-    .elenco p {
-        font-size: 20px;
-    }
+  .elenco p {
+    font-size: 20px;
+  }
 
-    .produtor p {
-        font-size: 20px;
-    }
+  .produtor p {
+    font-size: 20px;
+  }
 
-    .episodios p {
-        font-size: 20px;
-    }
+  .episodios p {
+    font-size: 20px;
+  }
 
-    .botoes {
-        margin-top: 1rem;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
+  .botoes {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
 
-    .botao {
-        font-size: 9px;
-    }
+  .botao {
+    font-size: 9px;
+  }
 
-    .baseboard {
-        background: #000000ea;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        padding: 1rem 3rem;
-        width: 100%;
-    }
+  .baseboard {
+    background: #000000ea;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem 3rem;
+    width: 100%;
+  }
 
-    p{
-        font-size: 10px;
-    }
+  p {
+    font-size: 10px;
+  }
 
-    .box-filmes {
-        /* height: 35vw; */
-        /* width: 100%; */
-        /* display: block; */
-    }
-
+  .box-filmes {
+    /* height: 35vw; */
+    /* width: 100%; */
+    /* display: block; */
+  }
 }
