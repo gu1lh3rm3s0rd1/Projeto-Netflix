@@ -5,7 +5,7 @@ Este é um projeto de clone da landing page da Netflix, onde foi recriada a inte
 
 ## Demonstração
 
-[Demonstração Landing Page da Netflix](assets/print4.PNG)
+![Texto Alternativo da Imagem](/assets/print4.PNG)
 
 ## Recursos utilizados
 
